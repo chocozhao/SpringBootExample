@@ -3,18 +3,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<artifactId>spring-boot-dubbo-example</artifactId>
+		<groupId>com.chocozhao</groupId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
 	<groupId>com.chocozhao</groupId>
 	<artifactId>dubbo-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>dubbo-consumer</name>
-	<description>dubbo-consumer</description>
+
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
