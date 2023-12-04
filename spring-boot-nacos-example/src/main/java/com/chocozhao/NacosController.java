@@ -1,7 +1,5 @@
 package com.chocozhao;
 
-import com.alibaba.nacos.api.config.annotation.NacosValue;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("config")
 public class NacosController {
 
-	@NacosValue(value = "${useLocalCache:false}",autoRefreshed = true)
-	private boolean useLocalCache;
+//	@NacosValue(value = "${useLocalCache:false}",autoRefreshed = true)
+//	private boolean useLocalCache;
 
-	@GetMapping(value = "/get")
-	public boolean get() {
-		return useLocalCache;
-	}
+//	@GetMapping(value = "/get")
+//	public boolean get() {
+//		return useLocalCache;
+//	}
 }
